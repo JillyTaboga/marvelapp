@@ -6,8 +6,8 @@ import 'package:marvelheroes/repositorio/helper.dart';
 class HeroeServices {
 
   //Get HeroList
-  static const String _privateKey = "311ec2c8656f5dccb8239e40a61b6b344b1dabfc";
-  static const String _publicKey = "c55afed203edb807de245f137ee5912f";
+  static const String _privateKey = <yourprivatekey>;
+  static const String _publicKey = <yourpublickey>;
   static String urlListaHeroe = "https://gateway.marvel.com:443/v1/public/characters";
 
   static Future<List<Heroe>> getHeroes({int offset, String name}) async {
