@@ -1,9 +1,6 @@
 import 'dart:async';
 
-import 'package:auto_size_text/auto_size_text.dart';
-import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
-import 'package:marvelheroes/blocs/main_bloc.dart';
 import 'package:marvelheroes/model/heroe.dart';
 import 'package:marvelheroes/widget/fichaheroe.dart';
 

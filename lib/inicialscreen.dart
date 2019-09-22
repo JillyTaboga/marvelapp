@@ -79,6 +79,7 @@ class _InicialScreenState extends State<InicialScreen> {
     play.stop();
     player.clearCache();
     play = null;
+    super.deactivate();
   }
 
   desligarSom()async{

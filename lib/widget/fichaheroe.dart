@@ -46,6 +46,7 @@ class _FichaHeroeState extends State<FichaHeroe> {
 
   @override
   void dispose() {
+    _listenerSeries.cancel();
     print("dispose");
     _seriesBloc.inLoading.add(true);
     _seriesBloc.inListSeries.add(null);

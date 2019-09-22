@@ -1,7 +1,4 @@
-import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter/material.dart';
-import 'package:marvelheroes/blocs/main_bloc.dart';
 import 'package:marvelheroes/model/heroe.dart';
 import 'package:marvelheroes/model/series.dart';
 import 'package:marvelheroes/repositorio/helper.dart';

@@ -1,6 +1,4 @@
-import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
-import 'package:marvelheroes/blocs/main_bloc.dart';
 
 class HeroeCardAddMore extends StatelessWidget {
   HeroeCardAddMore(this.onTap);

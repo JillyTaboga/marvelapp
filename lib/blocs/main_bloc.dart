@@ -156,6 +156,7 @@ class MainBloc extends BlocBase{
     _textNameController.close();
     listaFavoritosController.close();
     filtrandoFavController.close();
+    _autoSaveFavoritos.cancel();
     super.dispose();
   }
 

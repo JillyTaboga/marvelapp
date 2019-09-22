@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:convert/convert.dart';
 import 'package:crypto/crypto.dart' as crypto;
-import 'package:dio/dio.dart';
 
 class Helper {
 
